@@ -125,7 +125,7 @@ function FeaturesProducts() {
             <div className="col-lg-6 col-md-8">
               <div className="features-products-thumb">
                 <div className="main-img">
-                  <img src="/assets/img/products/1.png" alt="img" />
+                  <img src="/assets/img/products/2.png" alt="img" />
                 </div>
                 <img
                   src="/assets/img/products/features_product_shape01.png"
@@ -169,7 +169,7 @@ function FeaturesProducts() {
             <div className="col-lg-6 col-md-8">
               <div className="features-products-thumb">
                 <div className="main-img">
-                  <img src="/assets/img/products/1.png" alt="img" />
+                  <img src="/assets/img/products/2.png" alt="img" />
                 </div>
                 <img
                   src="/assets/img/products/features_product_shape02.png"
@@ -213,7 +213,7 @@ function FeaturesProducts() {
             <div className="col-lg-6 col-md-8">
               <div className="features-products-thumb">
                 <div className="main-img">
-                  <img src="/assets/img/products/1.png" alt="img" />
+                  <img src="/assets/img/products/2.png" alt="img" />
                 </div>
                 <img
                   src="/assets/img/products/features_product_shape03.png"

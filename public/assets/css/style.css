@@ -7583,3 +7583,12 @@ body.search-visible {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
+
+
+
+.features-products-thumb .main-img img {
+  width: 450px;
+  height: auto;
+  max-width: none;
+}
