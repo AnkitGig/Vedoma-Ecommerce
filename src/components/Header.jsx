@@ -7,17 +7,29 @@ export default function Header() {
   return (
     <>
       <header id="home">
-        <div className="menu-area p-2" id="sticky-header">
+        <div className="menu-area" id="sticky-header">
           <div className="container custom-container">
             <div className="row align-items-center">
               <div className="col-12">
                 <div className="menu-wrap">
                   <nav className="menu-nav d-flex align-items-center justify-content-between">
-
                     {/* Website Name / Logo */}
                     <div className="logo">
-                      <Link to="/">
-                        <h3 style={{ margin: 0 }}>ECOMMERCE</h3>
+                      <Link
+                        to="/"
+                        style={{
+                          display: "flex",
+                          alignItems: "center",
+                          gap: "10px",
+                          textDecoration: "none",
+                        }}
+                      >
+                        <img
+                          src="/assets/img/logo.png"
+                          alt="Vedoma Logo"
+                          style={{ height: "70px", width: "auto" }}
+                        />
+                        <h3 style={{ margin: 0, color: "inherit" }}>Vedoma</h3>
                       </Link>
                     </div>
 
@@ -40,7 +52,6 @@ export default function Header() {
                         </li>
                       </ul>
                     </div>
-
                   </nav>
                 </div>
               </div>
