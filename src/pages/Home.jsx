@@ -24,12 +24,12 @@ function BannerSection() {
           <div className="col-12">
             <div className="banner-images text-center">
               <img
-                alt="img"
+                alt="VEDOMA Herbal Pain Relief Oil for Joint and Muscle Pain Vedoma Store"
                 className="main-img"
                 src="/assets/img/products/topimg.png"
               />
               <img
-                alt="img"
+                alt="VEDOMA Herbal Pain Relief Oil for Joint and Muscle Pain Vedoma Store"
                 className="bg-shape"
                 src="/assets/img/banner/banner_round_bg.png"
               />
@@ -39,7 +39,7 @@ function BannerSection() {
       </div>
       <div className="banner-shape one">
         <img
-          alt="shape"
+          alt="VEDOMA Herbal Pain Relief Oil for Joint and Muscle Pain Vedoma Store"
           className="wow bannerFadeInLeft"
           data-wow-delay=".2s"
           data-wow-duration="2s"
@@ -48,7 +48,7 @@ function BannerSection() {
       </div>
       <div className="banner-shape two">
         <img
-          alt="shape"
+          alt="VEDOMA Herbal Pain Relief Oil for Joint and Muscle Pain Vedoma Store"
           className="wow bannerFadeInRight"
           data-wow-delay=".2s"
           data-wow-duration="2s"
@@ -57,7 +57,7 @@ function BannerSection() {
       </div>
       <div className="banner-shape three">
         <img
-          alt="shape"
+          alt="VEDOMA Herbal Pain Relief Oil for Joint and Muscle Pain Vedoma Store"
           className="wow bannerFadeInDown"
           data-wow-delay=".2s"
           data-wow-duration="2s"
@@ -66,7 +66,7 @@ function BannerSection() {
       </div>
       <div className="banner-shape four">
         <img
-          alt="shape"
+          alt="VEDOMA Herbal Pain Relief Oil for Joint and Muscle Pain Vedoma Store"
           className="wow bannerFadeInDown"
           data-wow-delay=".2s"
           data-wow-duration="2s"
@@ -104,7 +104,7 @@ function BrandSection() {
             <div key={idx} className="col-2">
               <div className="brand-item">
                 <a href="#">
-                  <img alt="brand" src={brand} />
+                  <img alt="VEDOMA Herbal Pain Relief Oil for Joint and Muscle Pain Vedoma Store" src={brand} />
                 </a>
               </div>
             </div>
@@ -129,7 +129,7 @@ function FeaturesProducts() {
                 </div>
                 <img
                   src="/assets/img/products/features_product_shape01.png"
-                  alt="img"
+                  alt="VEDOMA Herbal Pain Relief Oil for Joint and Muscle Pain Vedoma Store"
                   className="shape-img"
                 />
               </div>
@@ -173,7 +173,7 @@ function FeaturesProducts() {
                 </div>
                 <img
                   src="/assets/img/products/features_product_shape02.png"
-                  alt="img"
+                  alt="VEDOMA Herbal Pain Relief Oil for Joint and Muscle Pain Vedoma Store"
                   className="shape-img"
                 />
               </div>
@@ -217,7 +217,7 @@ function FeaturesProducts() {
                 </div>
                 <img
                   src="/assets/img/products/features_product_shape03.png"
-                  alt="img"
+                  alt="VEDOMA Herbal Pain Relief Oil for Joint and Muscle Pain Vedoma Store"
                   className="shape-img"
                 />
               </div>
@@ -257,7 +257,7 @@ function FeaturesProducts() {
         <div className="fp-shape-one">
           <img
             src="/assets/img/others/features_sec_shape01.png"
-            alt="shape"
+            alt="VEDOMA Herbal Pain Relief Oil for Joint and Muscle Pain Vedoma Store"
             className="paroller"
             data-paroller-direction="vertical"
             data-paroller-factor="0.25"
@@ -268,7 +268,7 @@ function FeaturesProducts() {
         <div className="fp-shape-two">
           <img
             src="/assets/img/others/features_sec_shape02.png"
-            alt="shape"
+            alt="VEDOMA Herbal Pain Relief Oil for Joint and Muscle Pain Vedoma Store"
             className="paroller"
             data-paroller-direction="vertical"
             data-paroller-factor="-0.25"
@@ -279,7 +279,7 @@ function FeaturesProducts() {
         <div className="fp-shape-three">
           <img
             src="/assets/img/others/features_sec_shape03.png"
-            alt="shape"
+            alt="VEDOMA Herbal Pain Relief Oil for Joint and Muscle Pain Vedoma Store"
             className="paroller"
             data-paroller-direction="vertical"
             data-paroller-factor="0.25"
@@ -304,7 +304,7 @@ function FeaturesArea() {
       <a href="#">
         <img
           src="/assets/img/1.jpeg"
-          alt="features"
+          alt="VEDOMA Herbal Pain Relief Oil for Joint and Muscle Pain Vedoma Store"
           style={{ width: "100%" }}
         />
       </a>
@@ -319,10 +319,10 @@ function Ingredients() {
         <div className="row align-items-center justify-content-center">
           <div className="col-xl-5 col-lg-6 col-md-7">
             <div className="ingredients-img">
-              <img src="/assets/img/down.png" alt="img" />
+              <img src="/assets/img/down.png" alt="VEDOMA Herbal Pain Relief Oil for Joint and Muscle Pain Vedoma Store" />
               <img
                 src="/assets/img/others/ingredients_shape.png"
-                alt="img"
+                alt="VEDOMA Herbal Pain Relief Oil for Joint and Muscle Pain Vedoma Store"
                 className="shape"
               />
             </div>
@@ -436,7 +436,7 @@ function Testimonial() {
                   <div className="testi-avatar-img">
                     <img
                       src="/assets/img/others/testi_avatar01.jpg"
-                      alt="img"
+                      alt="VEDOMA Herbal Pain Relief Oil for Joint and Muscle Pain Vedoma Store"
                     />
                   </div>
                   <div className="testi-avatar-info">
@@ -466,7 +466,7 @@ function Testimonial() {
                   <div className="testi-avatar-img">
                     <img
                       src="/assets/img/others/testi_avatar02.jpg"
-                      alt="img"
+                      alt="VEDOMA Herbal Pain Relief Oil for Joint and Muscle Pain Vedoma Store"
                     />
                   </div>
                   <div className="testi-avatar-info">

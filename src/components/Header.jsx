@@ -26,7 +26,7 @@ export default function Header() {
                       >
                         <img
                           src="/assets/img/logo.png"
-                          alt="Vedoma Logo"
+                          alt="Vedoma Store"
                           style={{ height: "70px", width: "auto" }}
                         />
                         <h3 style={{ margin: 0, color: "inherit" }}>Vedoma</h3>

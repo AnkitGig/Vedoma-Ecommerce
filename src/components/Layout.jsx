@@ -46,8 +46,8 @@ export default function Layout({ children, title }) {
                 </div>
               </div>
             </div>
-            <div className="video-shape one"><img alt="shape" src="/assets/img/others/video_shape01.png" /></div>
-            <div className="video-shape two"><img alt="shape" src="/assets/img/others/video_shape02.png" /></div>
+            <div className="video-shape one"><img alt="VEDOMA Herbal Pain Relief Oil for Joint and Muscle Pain Vedoma Store" src="/assets/img/others/video_shape01.png" /></div>
+            <div className="video-shape two"><img alt="VEDOMA Herbal Pain Relief Oil for Joint and Muscle Pain Vedoma Store" src="/assets/img/others/video_shape02.png" /></div>
           </section>
         )}
         {children}

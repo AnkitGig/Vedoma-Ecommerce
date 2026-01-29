@@ -84,7 +84,7 @@ export default function Login() {
                 <p>Hey there! Ready to log in? Just enter your username and password below and you'll be back in action in no time. Let's go!</p>
                 <div className="account__social">
                   <a className="account__social-btn" href="#">
-                    <img alt="img" src="/assets/img/icons/google.svg" />
+                    <img alt="Vedmo Store" src="/assets/img/icons/google.svg" />
                     Continue with google
                   </a>
                 </div>

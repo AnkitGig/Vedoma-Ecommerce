@@ -70,10 +70,10 @@ export default function Footer() {
           </div>
         </div>
         <div className="footer-shape one">
-          <img alt="img" className="wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="1s" src="/assets/img/others/footer_shape01.png" />
+          <img alt="VEDOMA Herbal Pain Relief Oil for Joint and Muscle Pain Vedoma Store" className="wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="1s" src="/assets/img/others/footer_shape01.png" />
         </div>
         <div className="footer-shape two">
-          <img alt="img" className="wow fadeInRight" data-wow-delay=".3s" data-wow-duration="1s" src="/assets/img/others/footer_shape02.png" />
+          <img alt="VEDOMA Herbal Pain Relief Oil for Joint and Muscle Pain Vedoma Store" className="wow fadeInRight" data-wow-delay=".3s" data-wow-duration="1s" src="/assets/img/others/footer_shape02.png" />
         </div>
       </div>
       <div className="copyright-wrap">
@@ -86,7 +86,7 @@ export default function Footer() {
             </div>
             <div className="col-md-5">
               <div className="payment-card text-center text-md-end">
-                <img alt="card" src="/assets/img/others/card_img.png" />
+                <img alt="VEDOMA Herbal Pain Relief Oil for Joint and Muscle Pain Vedoma Store" src="/assets/img/others/card_img.png" />
               </div>
             </div>
           </div>

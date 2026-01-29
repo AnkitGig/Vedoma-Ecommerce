@@ -81,7 +81,7 @@ export default function Register() {
                 <p>Hey there! Ready to join the party? We just need a few details from you to get started. Let's do this!</p>
                 <div className="account__social">
                   <a className="account__social-btn" href="#">
-                    <img alt="img" src="/assets/img/icons/google.svg" />
+                    <img alt="VEDOMA Herbal Pain Relief Oil for Joint and Muscle Pain Vedoma Store" src="/assets/img/icons/google.svg" />
                     Continue with google
                   </a>
                 </div>
