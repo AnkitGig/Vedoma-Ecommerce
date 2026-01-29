@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://api.vedomastore.com'
+const API_BASE_URL = 'https://api.vedomastore.com'
 
 export const registerUser = async (userData) => {
   try {
