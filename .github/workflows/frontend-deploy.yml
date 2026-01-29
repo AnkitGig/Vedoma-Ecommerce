@@ -1,4 +1,4 @@
-name: Frontend Deploy to VPS
+name: Frontend Deploy to Hostinger VPS
 
 on:
   push:
@@ -10,35 +10,43 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 1️⃣ Repo checkout
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Setup Node
+      # 2️⃣ Node setup
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - name: Install & Build
+      # 3️⃣ Install & build (Vite / React)
+      - name: Install dependencies & build
         run: |
           npm install
           npm run build
 
-      # 🔐 SSH CONNECTION TEST (IMPORTANT)
-      - name: Test SSH Connection
+      # 4️⃣ SSH connection test (DEBUG ON purpose)
+      - name: Test SSH connection
         uses: appleboy/ssh-action@v1.0.3
         with:
-          host: ${{ secrets.VPS_HOST }}
-          username: ${{ secrets.VPS_USER }}
-          key: ${{ secrets.VPS_SSH_KEY }}
+          host: ${{ secrets.VPS_HOST }}     # PUBLIC IP ONLY
+          username: root                    # ROOT USER
+          key: ${{ secrets.VPS_SSH_KEY }}   # FULL PRIVATE KEY
           port: 22
+          debug: true
           script: |
-            echo "SSH Connected Successfully"
+            echo "SSH CONNECTED"
             whoami
+            pwd
 
-      # 🚀 DEPLOY USING RSYNC (MOST STABLE)
-      - name: Deploy Frontend
+      # 5️⃣ Deploy frontend using rsync (MOST STABLE)
+      - name: Deploy frontend to VPS
         uses: burnett01/rsync-deployments@7.0.1
         with:
           switches: -avz --delete
           path: dist/
           remote_path: ${{ secrets.VPS_PATH }}
+          remote_host: ${{ secrets.VPS_HOST }}
+          remote_user: root
+          remote_key: ${{ secrets.VPS_SSH_KEY }}
