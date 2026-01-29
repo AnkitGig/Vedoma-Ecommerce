@@ -8,7 +8,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
- # Pull latest code from the repo
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -23,11 +23,22 @@ jobs:
           npm install
           npm run build
 
-      - name: Deploy via SSH
-        uses: appleboy/scp-action@v0.1.7
+      # 🔐 SSH CONNECTION TEST (IMPORTANT)
+      - name: Test SSH Connection
+        uses: appleboy/ssh-action@v1.0.3
         with:
           host: ${{ secrets.VPS_HOST }}
           username: ${{ secrets.VPS_USER }}
           key: ${{ secrets.VPS_SSH_KEY }}
-          source: "dist/*"
-          target: ${{ secrets.VPS_PATH }}
+          port: 22
+          script: |
+            echo "SSH Connected Successfully"
+            whoami
+
+      # 🚀 DEPLOY USING RSYNC (MOST STABLE)
+      - name: Deploy Frontend
+        uses: burnett01/rsync-deployments@7.0.1
+        with:
+          switches: -avz --delete
+          path: dist/
+          remote_path: ${{ secrets.VPS_PATH }}
