@@ -406,111 +406,7 @@ function Ingredients() {
   );
 }
 
-function Testimonial() {
-  return (
-    <section className="testimonial-area testimonial-bg">
-      <div className="testimonial-overlay"></div>
 
-      <div className="container">
-        <div className="row justify-content-center">
-          <div className="col-xxl-8 col-xl-9 col-lg-11">
-            <div className="testimonial-active">
-              {/* Testimonial 1 */}
-              <div className="testimonial-item text-center">
-                <div className="testimonial-rating">
-                  <i className="fa fa-star"></i>
-                  <i className="fa fa-star"></i>
-                  <i className="fa fa-star"></i>
-                  <i className="fa fa-star"></i>
-                  <i className="fa fa-star-half-o"></i>
-                </div>
-
-                <p>
-                  “Becoming more involved in administration within the
-                  (MidMichigan) health system over the years, I had been
-                  researching options for further education that would assist in
-                  this transition and fit my busy schedule”
-                </p>
-
-                <div className="testimonial-avatar-wrap">
-                  <div className="testi-avatar-img">
-                    <img
-                      src="/assets/img/others/testi_avatar01.jpg"
-                      alt="VEDOMA Herbal Pain Relief Oil for Joint and Muscle Pain Vedoma Store"
-                    />
-                  </div>
-                  <div className="testi-avatar-info">
-                    <h5 className="name">Janeta Cooper</h5>
-                  </div>
-                </div>
-              </div>
-
-              {/* Testimonial 2 */}
-              <div className="testimonial-item text-center">
-                <div className="testimonial-rating">
-                  <i className="fa fa-star"></i>
-                  <i className="fa fa-star"></i>
-                  <i className="fa fa-star"></i>
-                  <i className="fa fa-star"></i>
-                  <i className="fa fa-star-half-alt"></i>
-                </div>
-
-                <p>
-                  “Becoming more involved in administration within the
-                  (MidMichigan) health system over the years, I had been
-                  researching options for further education that would assist in
-                  this transition and fit my busy schedule”
-                </p>
-
-                <div className="testimonial-avatar-wrap">
-                  <div className="testi-avatar-img">
-                    <img
-                      src="/assets/img/others/testi_avatar02.jpg"
-                      alt="VEDOMA Herbal Pain Relief Oil for Joint and Muscle Pain Vedoma Store"
-                    />
-                  </div>
-                  <div className="testi-avatar-info">
-                    <h5 className="name">Lempor Kooper</h5>
-                  </div>
-                </div>
-              </div>
-
-              {/* Testimonial 3 */}
-              <div className="testimonial-item text-center">
-                <div className="testimonial-rating">
-                  <i className="fa fa-star"></i>
-                  <i className="fa fa-star"></i>
-                  <i className="fa fa-star"></i>
-                  <i className="fa fa-star"></i>
-                  <i className="fa fa-star-half-alt"></i>
-                </div>
-
-                <p>
-                  “Becoming more involved in administration within the
-                  (MidMichigan) health system over the years, I had been
-                  researching options for further education that would assist in
-                  this transition and fit my busy schedule”
-                </p>
-
-                <div className="testimonial-avatar-wrap">
-                  <div className="testi-avatar-img">
-                    <img
-                      src="/assets/img/others/testi_avatar03.jpg"
-                      alt="img"
-                    />
-                  </div>
-                  <div className="testi-avatar-info">
-                    <h5 className="name">Zonalos Neko</h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
 export default function Home() {
   return (
     <Layout>
@@ -519,7 +415,6 @@ export default function Home() {
       <FeaturesArea />
       <FeaturesProducts />
       <Ingredients />
-      <Testimonial />
     </Layout>
   );
 }
