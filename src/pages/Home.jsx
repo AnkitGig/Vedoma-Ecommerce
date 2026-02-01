@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Layout from "../components/Layout";
 import CompositionCard from "../components/CompositionCard";
+import ProductBenefits from "../components/ProductBenefits";
 
 // Banner Section Component
 function BannerSection() {
@@ -415,6 +416,7 @@ export default function Home() {
       <BrandSection />
       <FeaturesArea />
       <FeaturesProducts />
+      <ProductBenefits />
       <CompositionCard />
       <Ingredients />
     </Layout>
