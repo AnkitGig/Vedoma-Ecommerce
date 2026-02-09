@@ -196,14 +196,6 @@ function FeaturesProducts() {
                   deficiency can lead to weak bones, rickets in children, and
                   osteoporosis in adults.
                 </p>
-                <div className="features-product-bottom">
-                  <a className="btn" href="shop-details.html">
-                    Shop Now
-                  </a>
-                  <span className="price">
-                    $59.99 <span className="old-price">$79.99</span>
-                  </span>
-                </div>
               </div>
             </div>
           </div>
@@ -240,14 +232,6 @@ function FeaturesProducts() {
                   deficiency can lead to weak bones, rickets in children, and
                   osteoporosis in adults.
                 </p>
-                <div className="features-product-bottom">
-                  <a className="btn" href="shop-details.html">
-                    Shop Now
-                  </a>
-                  <span className="price">
-                    $69.99 <span className="old-price">$89.99</span>
-                  </span>
-                </div>
               </div>
             </div>
           </div>
